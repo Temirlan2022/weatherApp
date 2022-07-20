@@ -117,32 +117,6 @@ class _LocationscreenState extends State<Locationscreen> {
     }
   }
 
-  // WeatherModel weatherModel = WeatherModel();
-  // int temperature;
-  // String cityValue;
-  // int condition;
-  // var weatherData;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   weatherData = widget.weatherData;
-  //   updateUI();
-  // }
-
-  // void updateUI() {
-  //   if (weatherData == null) {
-  //     cityValue = 'null';
-  //     temperature = 0;
-  //     return;
-  //   }
-  //   setState(() {});
-  //   double temp = weatherData['main']['temp'];
-  //   temperature = temp.toInt();
-  //   cityValue = weatherData['name'];
-  //   condition = weatherData['weather'][0]['id'];
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -152,8 +126,6 @@ class _LocationscreenState extends State<Locationscreen> {
             image: DecorationImage(
               image: AssetImage('assets/images/backgraund_image.webp'),
               fit: BoxFit.cover,
-              // colorFilter: ColorFilter.mode(
-              //     Colors.white.withOpacity(0.8), BlendMode.dstATop),
             ),
           ),
           constraints: BoxConstraints.expand(),
@@ -179,7 +151,6 @@ class _LocationscreenState extends State<Locationscreen> {
                             MaterialPageRoute(
                                 builder: (context) => Gorodyscreen()));
                         getCityWeather(result.toString());
-                        print(result);
                         setState(() {});
                       },
                       child: const Icon(

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'ekrany/loading_ekran.dart';
 import 'ekrany/location_ekran.dart';
 
 void main() {
@@ -20,7 +18,6 @@ class MyApp extends StatelessWidget {
         initialRoute: 'Locationscreen' ,
       routes:{
         'Locationscreen': (context) => Locationscreen(),
-        // 'Loadingscreen' :(context) => Loadingscreen()
       } 
     );
   }
