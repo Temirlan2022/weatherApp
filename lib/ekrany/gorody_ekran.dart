@@ -51,7 +51,6 @@ class _GorodyscreenState extends State<Gorodyscreen> {
               ElevatedButton(
                 onPressed: () {
                   Navigator.pop(context, cityName);
-                  FocusScope.of(context).requestFocus(FocusNode());
                 },
                 style: ButtonStyle(
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(

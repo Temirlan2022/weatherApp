@@ -7,13 +7,12 @@ const kTempTextStyle =
     TextStyle(fontFamily: 'Spartan MB', fontSize: 100.0, color: Colors.white);
 
 const kMessageTextStyle =
-    TextStyle(fontFamily: 'Spartan MB', fontSize: 60.0, color: Colors.white);
+    TextStyle(fontFamily: 'Spartan MB', fontSize: 35.0, color: Colors.white);
 
 const kButtonTextStyle =
     TextStyle(fontSize: 30.0, fontFamily: 'Spartan MB', color: Colors.white);
 
-const kConditionTextStyle = TextStyle(fontSize: 100.0, color: Colors.white);
-
+const kConditionTextStyle = TextStyle(fontSize: 50.0, color: Colors.white);
 
 var InputDecorationStyle = InputDecoration(
   icon: const Icon(

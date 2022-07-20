@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         initialRoute: 'Locationscreen' ,
       routes:{
         'Locationscreen': (context) => Locationscreen(),
-        'Loadingscreen' :(context) => Loadingscreen()
+        // 'Loadingscreen' :(context) => Loadingscreen()
       } 
     );
   }
