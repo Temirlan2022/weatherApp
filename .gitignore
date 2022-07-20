@@ -46,6 +46,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-\lib\ekrany\loading_ekran.dart
-\lib\services\location.dart
-\lib\services\networking.dart
+/lib/ekrany/loading_ekran.dart
+/lib/services/location.dart
+/lib/services/networking.dart
